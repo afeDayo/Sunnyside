@@ -1,0 +1,73 @@
+.nav {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-hamburger {
+  cursor: pointer;
+}
+
+.navbar-dropdown {
+  background-color: #fff;
+  position: absolute;
+  top: 60px;
+  left: 8%;
+  width: 85%;
+}
+
+.navbar-dropdown ul {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.navbar-dropdown li {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  color: var(--Dark-grayish-blue);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar-dropdown li button {
+  /* border-bottom: none; */
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: var(--Yellow);
+}
+
+/* ========================BIG SCREEN======================== */
+
+.big-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.reach p {
+  margin-bottom: 0;
+  color: var(--White);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reach button {
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: var(--White);
+}
+
+.reach button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}

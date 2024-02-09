@@ -1,0 +1,86 @@
+.fotsec {
+  background-color: hsl(168, 47%, 64%);
+}
+
+.foot {
+  padding: 60px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.serv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.serv p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: var(--Dark-moderate-cyan-for-footer);
+  cursor: pointer;
+}
+
+.serv p:hover {
+  color: var(--White);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.social img:hover {
+  background-color: var(--White);
+  border-radius: 3px;
+}
+
+/* ========================================================== */
+
+.big-fotsec {
+  background-color: hsl(168, 47%, 64%);
+}
+
+.big-foot {
+  padding: 60px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.big-serv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.big-serv p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: var(--Dark-moderate-cyan-for-footer);
+  cursor: pointer;
+}
+
+.big-serv p:hover {
+  color: var(--White);
+}
+
+.big-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.big-social img:hover {
+  background-color: var(--White);
+  border-radius: 3px;
+}
